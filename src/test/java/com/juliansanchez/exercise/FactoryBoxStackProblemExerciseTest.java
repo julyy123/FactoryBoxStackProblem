@@ -33,7 +33,6 @@ public class FactoryBoxStackProblemExerciseTest {
 
         operateFactory(expectedBoxes);
 
-        System.out.println(commandCounter);
         assertTrue(Arrays.equals(boxes, expectedBoxes));
         assertTrue(commandCounter <= MAX_MOVEMENTS);
     }
@@ -54,7 +53,6 @@ public class FactoryBoxStackProblemExerciseTest {
 
         operateFactory(expectedBoxes);
 
-        System.out.println(commandCounter);
         assertTrue(Arrays.equals(boxes, expectedBoxes));
         assertTrue(commandCounter <= MAX_MOVEMENTS);
     }
@@ -75,7 +73,6 @@ public class FactoryBoxStackProblemExerciseTest {
 
         operateFactory(expectedBoxes);
 
-        System.out.println(commandCounter);
         assertTrue(Arrays.equals(boxes, expectedBoxes));
         assertTrue(commandCounter <= MAX_MOVEMENTS);
     }
